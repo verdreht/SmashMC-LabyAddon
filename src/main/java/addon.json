@@ -1,0 +1,9 @@
+{
+  "uuid": "%uuid%",
+  "name": "SmashMC-Addon",
+  "mainClass": "net.verdreht.smashmc.addon.SmashAddon",
+  "description": "The official LabyMod Addon of the SmashMC.eu server!",
+  "version": 1,
+  "author": "verdreht",
+  "category": 1
+}
