@@ -3,14 +3,14 @@ package net.verdreht.smashmc.addon.communication.handler;
 import com.google.gson.JsonElement;
 import net.verdreht.smashmc.addon.communication.ChannelListener;
 
-public class NameTagResolver extends ChannelListener {
+public class EmoteTestChannelListener extends ChannelListener {
 
-    public NameTagResolver() {
-        super("player.update-player-info");
+    public EmoteTestChannelListener() {
+        super("emote_api");
     }
 
     @Override
     public void handleMessage(String messageEntry, JsonElement serverMessage) {
-        System.out.println("Received plugin info (player): " + messageEntry + " (" + serverMessage.toString() + ")");
+        System.out.println("Received plugin info (emote_api): " + messageEntry + " (" + serverMessage.toString() + ")");
     }
 }
